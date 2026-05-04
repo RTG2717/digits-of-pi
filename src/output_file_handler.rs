@@ -32,7 +32,7 @@ impl OutputFileHandler {
     }
 
     pub(crate) fn append(&mut self, text: &str) {
-        writeln!(self.file, "{}",  text).expect("Failed to append to file.");
+        write!(self.file, "{}",  text).expect("Failed to append to file.");
         self.file.flush().expect("Failed to flush file");
     }
 }
