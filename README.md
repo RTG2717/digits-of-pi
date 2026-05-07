@@ -11,8 +11,8 @@ If I simply divide 22/7 then it will be limited by the limit of f64 (i.e ~15-17 
 ## TODO
 
 - [x] Initial Functionality
-- [] Make all file operations atomic (eg: create a tmp file instead of directly overwriting the remainder file, think of something for output file too)
-- [] Automate code updation *to/from* git
-- [] Automate code continuation from update *from* git
-- [] Improve Error Logging
+- [ ] Make all file operations atomic (eg: create a tmp file instead of directly overwriting the remainder file, think of something for output file too)
+- [ ] Automate code updation *to/from* git
+- [ ] Automate code continuation from update *from* git
+- [ ] Improve Error Logging
 
